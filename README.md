@@ -109,7 +109,13 @@ it is recommended to use Broadcom wireless network card for the best experience 
 
 ### BIOS Settings / 修改 BIOS 设置
 
-正在编写
+- Settings > Advanced > System Agent (SA) Configuration > VT-D: Disabled
+- Settings > Advanced > System Agent (SA) Configuration > Above 4G Decoding: Enabled
+- Settings > Advanced > USB Configuration > XHCI Hand-off: Enabled
+- Settings > Boot > CSM(Compatibility Support Module) > Launch CSM: Disabled
+- Settings > Boot > Secure Boot > OS Type: Other OS
+- Settings > Boot > Boot\Boot Configuration > Wait For 'F1' If Error: Disabled
+
 
 
 ## Donation / 捐赠
