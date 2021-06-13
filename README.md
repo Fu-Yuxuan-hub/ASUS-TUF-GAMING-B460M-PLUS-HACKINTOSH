@@ -127,5 +127,3 @@ Donating to this project is OPTIONAL. But feel free to buy me a coffee if you ap
 <center class = "half">
 <img src = “https://user-images.githubusercontent.com/74492520/121812676-61ef4500-cc9b-11eb-8c67-95bc62d45523.png”  width = “50%” align = left><img src = “https://user-images.githubusercontent.com/74492520/121812678-63b90880-cc9b-11eb-9650-4f85fb2770c6.jpg”  width = “50%” align = right>
 </center>
-<img src="https://user-images.githubusercontent.com/74492520/121812676-61ef4500-cc9b-11eb-8c67-95bc62d45523.png" width = "100" height = "100" div align=center />
-<img src="https://user-images.githubusercontent.com/74492520/121812678-63b90880-cc9b-11eb-9650-4f85fb2770c6.jpg" width = "100" height = "100" div align=center />
