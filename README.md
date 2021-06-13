@@ -1,4 +1,6 @@
-![OpenCore_with_text_Small](https://user-images.githubusercontent.com/74492520/121812516-a9290600-cc9a-11eb-8eae-436724334f58.png)
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/74492520/121812516-a9290600-cc9a-11eb-8eae-436724334f58.png/>
+</div>
 <h1 align="center">ASUS-TUF-GAMING-B460M-PLUS</h1>
 <h3 align="center">华硕 B460M重炮手 黑苹果 OpenCore 引导配置</h3>
 <br>
