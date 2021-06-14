@@ -124,6 +124,6 @@ Donating to this project is OPTIONAL. But feel free to buy me a coffee if you ap
 
 捐赠本项目 **并不是必需的**。但是如果我的项目对你有所帮助，为什么不考虑一下给我买杯咖啡呢？
 
-<center class = "half">
-<img src = “https://user-images.githubusercontent.com/74492520/121812676-61ef4500-cc9b-11eb-8c67-95bc62d45523.png”  width = “50%” align = left><img src = “https://user-images.githubusercontent.com/74492520/121812678-63b90880-cc9b-11eb-9650-4f85fb2770c6.jpg”  width = “50%” align = right>
-</center>
+⭐️打赏附言请留下自己的github的ID，用于公示感谢
+![稿定设计导出-20210614-095309](https://user-images.githubusercontent.com/74492520/121829906-639a2680-ccf6-11eb-880f-0259383d30e0.jpg)
+
