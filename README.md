@@ -84,6 +84,8 @@ Please choose the branch you need for different graphics cards
   一个容量大于等于 16 GiB 的 U 盘
 - [PlistEDPlus](https://github.com/ic005k/PlistEDPlus) to edit plist files on Windows.
   编辑 plist 文件的工具 [PlistEDPlus](https://github.com/ic005k/PlistEDPlus)
+- [ProperTree](https://github.com/corpnewt/ProperTree) to edit plist files on Windows/macOS.
+  编辑 plist 文件的工具 [ProperTree](https://github.com/corpnewt/ProperTree)
 - [MaciASL](https://github.com/acidanthera/MaciASL) for patching ACPI tables and editing ACPI patches.
   用于修补和编辑 ACPI 的工具 [MaciASL](https://github.com/acidanthera/MaciASL)
 - [HackinTool](https://github.com/headkaze/Hackintool) for diagnosis ONLY. Most of the built-in patches are outdated.
