@@ -57,6 +57,24 @@ Please choose the branch you need for different graphics cards
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
 | USB 2.0, USB 3.0 | ✅ | `USBPorts.kext` | |
+# 建议自行重新定制USB
+如需定制USB 需准备：
+USB2.0U盘x1
+USB3.0U盘x1
+USBinjectAll.kext最新版本，请在使用前阅读Readme文档
+https://github.com/daliansky/OS-X-USB-Inject-All
+[USB定制教程（部落阁）](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html )
+[USB定制教程（视频版）](https://www.bilibili.com/video/BV1rt4y1y7Pb)
+
+需要基于 USB控制器 您可能需要安装额外的 kexts:
+
+XHCI-unsupported.kext
+* X99系列芯片组XHC控制器，8086:8d31
+* 200系列芯片组XHC控制器，8086:a2af（根据macOS版本而有）
+* 300系列芯片组XHC控制器，8086:a36d或8086:9ded
+* 400系列芯片组XHC控制器，8086:a3af
+* 500系列芯片组XHC控制器，8086:43ed
+
 
 ### Display, TrackPad and Keyboard / 显示器、触摸板和键盘
 
