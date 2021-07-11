@@ -22,7 +22,7 @@ Please choose the branch you need for different graphics cards
 | Memory | DDR4 2666 Mhz. 8 GB |
 | NVMe SSD | WD SN550 500G |
 | Integrated Graphics | Intel UHD Graphics 630 |
-| Wireless Card | NONE  |
+| Wireless Card | BCM 943602CS |
 
 ## Working & Not Working / 可用与不可用的功能
 
