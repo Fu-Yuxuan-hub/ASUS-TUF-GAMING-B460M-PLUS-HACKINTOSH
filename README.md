@@ -57,6 +57,7 @@ Please choose the branch you need for different graphics cards
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
 | USB 2.0, USB 3.0 | ✅ | `USBPorts.kext` | |
+![稿定设计导出-20210720-092307](https://user-images.githubusercontent.com/74492520/126248161-cc5e7a79-86ed-4e2a-be5b-d9d1cc6f7742.jpg)
 # 建议自行重新定制USB
 如需定制USB 需准备：
 USB2.0U盘x1
