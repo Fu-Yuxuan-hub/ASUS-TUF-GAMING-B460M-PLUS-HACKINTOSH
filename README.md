@@ -66,8 +66,8 @@ USB2.0U盘x1
 USB3.0U盘x1
 USBinjectAll.kext最新版本，请在使用前阅读Readme文档
 https://github.com/daliansky/OS-X-USB-Inject-All
-[USB定制教程（部落阁）](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html )
-[USB定制教程（视频版）](https://www.bilibili.com/video/BV1rt4y1y7Pb)
+USB定制教程（Mac版）：https://www.bilibili.com/video/BV1rt4y1y7Pb
+USB定制教程（Windows）https://b23.tv/mgdYFB
 
 需要基于 USB控制器 您可能需要安装额外的 kexts:
 
