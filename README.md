@@ -140,6 +140,12 @@ it is recommended to use Broadcom wireless network card for the best experience 
 - Settings > Boot > Boot\Boot Configuration > Wait For 'F1' If Error: Disabled
 
 
+### Win+Mac双系统解决Win系统时间时差问题
+* 在Windows下运行
+```
+Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+```
+
 
 ## Donation / 捐赠
 
