@@ -126,3 +126,6 @@ it is recommended to use Broadcom wireless network card for the best experience 
 ```
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 ```
+
+#### 本项目所提供的EFI支持`macOS Catalina`,`macOS Monterey`和`macOS Ventura Beta`
+#### 欢迎各位积极提交`issue`和`Pull requests`
