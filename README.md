@@ -12,7 +12,7 @@ Please choose the branch you need for different graphics cards
 
 ## ASUS-TUF-GAMING-B460M-PLUS  Practical Manual / 使用手册 
 English：https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/E17227_TUF_GAMING_B460M-PLUS_UM_V3_WEB.pdf    
-Chinese：https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/C17227_TUF_GAMING_B460M-PLUS_UM_V3_WEB.pdf
+简体中文：https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/C17227_TUF_GAMING_B460M-PLUS_UM_V3_WEB.pdf
 
 
 ## Hardware Specifications / 硬件配置
@@ -58,18 +58,7 @@ Chinese：https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/
 
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
-| USB 2.0, USB 3.0 | ✅ | `USBPorts.kext` | |
-# 建议自行重新定制USB
-
-
-需要基于 USB控制器 您可能需要安装额外的 kexts:
-
-XHCI-unsupported.kext
-* X99系列芯片组XHC控制器，8086:8d31
-* 200系列芯片组XHC控制器，8086:a2af（根据macOS版本而有）
-* 300系列芯片组XHC控制器，8086:a36d或8086:9ded
-* 400系列芯片组XHC控制器，8086:a3af
-* 500系列芯片组XHC控制器，8086:43ed
+| USB 2.0, USB 3.0 | ✅ | `USBPorts.kext` | 建议自行`重新定制`USB |
 
 
 ### Display, TrackPad and Keyboard / 显示器、触摸板和键盘
