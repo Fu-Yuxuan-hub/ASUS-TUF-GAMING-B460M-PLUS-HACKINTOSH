@@ -50,8 +50,8 @@ English：https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/
 | --- | --- | --- | --- |
 | CPU Power Management (SpeedShift)<br>CPU 电源管理 | ✅ | `SSDT-PLUG` | Use `iMac20,1` |
 | NVMe Drive Battery Management<br>NVMe 硬盘电源管理 | ✅ | `NVMeFix.kext` | |
-| S3 Sleep / Hibernation Mode 3<br>S3 睡眠 / Mode 3 休眠 | ✅ | 
-
+| S3 Sleep<br>S3 睡眠 | ✅ | 
+| Hibernation Mode 3<br>Mode 3 休眠 | ✅ |   | `may broken`<br>`可能无法使用` |
 
 ### Input & Output
 
