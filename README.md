@@ -133,6 +133,6 @@ This EFI supports `macOS Catalina`,`macOS Big Sur`,`macOS Monterey` and `macOS V
 本项目所提供的EFI支持`macOS Catalina`,`macOS Big Sur`,`macOS Monterey`和`macOS Ventura Beta`
 
 
-Welcome to submit [issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues) and [Pull requests](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
+Welcome to submit [Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues) and [Pull requests](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
 
-欢迎各位积极提交[issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues)和[Pull requests](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
+欢迎各位积极提交[Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues)和[Pull requests](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
