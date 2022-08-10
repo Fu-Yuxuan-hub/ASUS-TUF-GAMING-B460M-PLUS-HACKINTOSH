@@ -121,11 +121,18 @@ it is recommended to use Broadcom wireless network card for the best experience 
 - Settings > Boot > Boot\Boot Configuration > Wait For 'F1' If Error: Disabled
 
 
-### Win+Mac双系统解决Win系统时间时差问题
-* 在Windows下运行
+### Solve the windows difference of 8 hours / 双系统解决Win系统时间时差问题
+* Running under the Window / 在Windows下运行
 ```
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 ```
 
-#### 本项目所提供的EFI支持`macOS Catalina`,`macOS Monterey`和`macOS Ventura Beta`
-#### 欢迎各位积极提交`issue`和`Pull requests`
+### End / 结语
+This EFI supports `macOS Catalina`,`macOS Monterey`和`macOS Ventura Beta`       
+
+本项目所提供的EFI支持`macOS Catalina`,`macOS Monterey`和`macOS Ventura Beta`
+
+
+Welcome to submit [issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues) and [Pull requests](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
+
+欢迎各位积极提交[issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues)和[Pull requests](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
