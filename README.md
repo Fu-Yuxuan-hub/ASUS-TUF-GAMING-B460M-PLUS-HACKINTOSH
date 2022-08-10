@@ -59,15 +59,8 @@ Chinese：https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
 | USB 2.0, USB 3.0 | ✅ | `USBPorts.kext` | |
-![稿定设计导出-20210720-092307](https://user-images.githubusercontent.com/74492520/126248161-cc5e7a79-86ed-4e2a-be5b-d9d1cc6f7742.jpg)
 # 建议自行重新定制USB
-如需定制USB 需准备：
-USB2.0U盘x1
-USB3.0U盘x1
-USBinjectAll.kext最新版本，请在使用前阅读Readme文档
-https://github.com/daliansky/OS-X-USB-Inject-All
-USB定制教程（Mac版）：https://www.bilibili.com/video/BV1rt4y1y7Pb
-USB定制教程（Windows）https://b23.tv/mgdYFB
+
 
 需要基于 USB控制器 您可能需要安装额外的 kexts:
 
@@ -145,14 +138,3 @@ it is recommended to use Broadcom wireless network card for the best experience 
 ```
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 ```
-
-
-## Donation / 捐赠
-
-Donating to this project is OPTIONAL. But feel free to buy me a coffee if you appreciate my works.
-
-捐赠本项目 **并不是必需的**。但是如果我的项目对你有所帮助，为什么不考虑一下给我买杯咖啡呢？
-
-⭐️打赏附言请留下自己的github的ID，用于公示感谢
-![稿定设计导出-20210614-095309](https://user-images.githubusercontent.com/74492520/121829906-639a2680-ccf6-11eb-880f-0259383d30e0.jpg)
-
