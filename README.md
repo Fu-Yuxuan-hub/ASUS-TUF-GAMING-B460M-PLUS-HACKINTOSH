@@ -69,6 +69,11 @@ English：https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/
 ## Refrence / 必读参考资料
 
 - [dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+- [dortania's OpenCore Post Install Guide](https://dortania.github.io/OpenCore-Post-Install/)
+- [dortania Getting Started with ACPI](https://dortania.github.io/OpenCore-Post-Install/)
+- [dortania opencore multiboot](https://github.com/dortania/OpenCore-Multiboot)
+- [WhateverGreen Intel HD Manual](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
+- `Configuration.pdf` and `Differences.pdf` in each OpenCore releases.
 - [daliansky/OC-little](https://github.com/daliansky/OC-little)
 - [OpenCore 简体中文参考手册 (非官方)](https://oc.skk.moe)
 
@@ -99,16 +104,16 @@ English：https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/
 
 #### SSD
 
-Samusung PM981 is not supported AT ALL. Make sure to switch at least one SSD.
+三星 PM981/PM981a/PM991 和 镁光 2200S **完全** 无法使用，务必更换至少一块 SSD 硬盘。
 
-三星 PM981 **完全** 无法使用，务必更换至少一块 SSD 硬盘。
+Samusung PM981/PM981a/PM991 and Micron 2200S is not supported AT ALL. Make sure to switch at least one SSD.
 
 
 #### Wireless Card / 无线网卡
 
-it is recommended to use Broadcom wireless network card for the best experience (better, refer to the use of the best experience).
+It is recommended to use Broadcom wireless network card to obtain **Better** performance and use native functions about「Apple Ecology」(I mean, 100x FASTER!)
 
-建议使用博通无线网卡以获得 **更好** 的体验（更好，指使用 **体验**）。
+建议使用博通无线网卡以获得 **更好** 的性能和使用原生的关于「苹果生态」的功能（更好，指速度快 **100 倍**）
 
 
 ### BIOS Settings / 修改 BIOS 设置
