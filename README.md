@@ -135,9 +135,9 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 ```
 
 ## End / 结语
-This EFI supports `macOS Catalina`,`macOS Big Sur`,`macOS Monterey` and `macOS Ventura Beta`       
+This EFI supports `macOS Catalina`,`macOS Big Sur`,`macOS Monterey` and `macOS Ventura`       
 
-本项目所提供的EFI支持`macOS Catalina`,`macOS Big Sur`,`macOS Monterey`和`macOS Ventura Beta`
+本项目所提供的EFI支持`macOS Catalina`,`macOS Big Sur`,`macOS Monterey`和`macOS Ventura`
 
 
 Welcome to submit [Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues) and [Pull request](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
