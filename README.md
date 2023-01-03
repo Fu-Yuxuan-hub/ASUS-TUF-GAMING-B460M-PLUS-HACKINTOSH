@@ -44,6 +44,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Audio Recording via 3.5mm microphone<br>通过3.5mm 麦克风录音 | ✅ | `AppleALC.kext` | |
 | Audio Playback after through 3.5mm<br>通过 后 3.5mm 接口播放音频 | ✅ | `AppleALC.kext` | |
 | Automatic Headphone Output Switching<br>当插入耳机时自动切换音频输出 | ✅ | `AppleALC.kext` | |
+| Digital Rights Management (DRM)<br>数字版权管理（DRM） | ✅ | `shikigva=80/128` | `Only dGPU` |
 
 
 ### Power, Charge, Sleep and Hibernation / 电源管理、充电、睡眠、休眠
