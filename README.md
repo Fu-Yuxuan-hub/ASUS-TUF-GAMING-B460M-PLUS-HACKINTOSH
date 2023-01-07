@@ -26,6 +26,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | NVMe SSD | WD SN550 500G |
 | Integrated Graphics | Intel UHD Graphics 630 |
 | Wireless Card | BCM 943602CS |
+| [BIOS Version](https://www.asus.com.cn/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b460m-plus/helpdesk_bios/?model2Name=TUF-GAMING-B460M-PLUS) | Version 1301 |
 
 ## Working & Not Working / 可用与不可用的功能
 
@@ -44,6 +45,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Audio Recording via 3.5mm microphone<br>通过3.5mm 麦克风录音 | ✅ | `AppleALC.kext` | |
 | Audio Playback after through 3.5mm<br>通过 后 3.5mm 接口播放音频 | ✅ | `AppleALC.kext` | |
 | Automatic Headphone Output Switching<br>当插入耳机时自动切换音频输出 | ✅ | `AppleALC.kext` | |
+| Digital Rights Management (DRM)<br>数字版权管理（DRM） | ✅ | `shikigva=80/128` | `Only dGPU` |
 
 
 ### Power, Charge, Sleep and Hibernation / 电源管理、充电、睡眠、休眠
@@ -51,9 +53,8 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
 | CPU Power Management (SpeedShift)<br>CPU 电源管理 | ✅ | `SSDT-PLUG` | Use `iMac20,1` |
-| NVMe Drive Battery Management<br>NVMe 硬盘电源管理 | ✅ | `NVMeFix.kext` | |
+| NVMe Drive Battery Management<br>NVMe 硬盘电源管理 | ✅ | | |
 | S3 Sleep<br>S3 睡眠 | ✅ | 
-| Hibernation Mode 3<br>Mode 3 休眠 | ✅ |   | `may broken`<br>`可能无法使用` |
 
 ### Input & Output
 
@@ -87,12 +88,10 @@ Your warranty is now void. Please do some research if you have any concerns befo
 
 ### Basic / 基本需求
 
-- A macOS machine (optional): to create the macOS installer and build the EFI.
-  一台已经安装好 macOS 的机器，用于制作 macOS 安装器和编译本项目
-- Flash drive, 16GB or more, for the above purpose.
-  一个容量大于等于 16 GiB 的 U 盘
-- [PlistEDPlus](https://github.com/ic005k/PlistEDPlus) to edit plist files on Windows.
-  编辑 plist 文件的工具 [PlistEDPlus](https://github.com/ic005k/PlistEDPlus)
+- Flash drive, 4GB or more, for the above purpose.
+  一个容量大于等于 4 GB 的 U 盘
+- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) to edit plist files on Windows/macOS.
+  编辑 plist 文件的工具 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 - [ProperTree](https://github.com/corpnewt/ProperTree) to edit plist files on Windows/macOS.
   编辑 plist 文件的工具 [ProperTree](https://github.com/corpnewt/ProperTree)
 - [MaciASL](https://github.com/acidanthera/MaciASL) for patching ACPI tables and editing ACPI patches.
@@ -128,7 +127,7 @@ It is recommended to use Broadcom wireless network card to obtain **Better** per
 - Settings > Boot > Boot\Boot Configuration > Wait For 'F1' If Error: Disabled
 
 
-### Solve the windows difference of 8 hours / 双系统解决Win系统时间时差问题
+### Solve the Windows difference of 8 hours / 解决Windows系统时间时差8小时问题
 * Running under the Window / 在Windows下运行
 ```
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
