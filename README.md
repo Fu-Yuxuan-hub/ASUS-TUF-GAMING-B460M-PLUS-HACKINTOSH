@@ -26,6 +26,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | NVMe SSD | WD SN550 500G |
 | Integrated Graphics | Intel UHD Graphics 630 |
 | Wireless Card | BCM 943602CS |
+| [BIOS Version](https://www.asus.com.cn/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b460m-plus/helpdesk_bios/?model2Name=TUF-GAMING-B460M-PLUS) | Version 1301 |
 
 ## Working & Not Working / 可用与不可用的功能
 
