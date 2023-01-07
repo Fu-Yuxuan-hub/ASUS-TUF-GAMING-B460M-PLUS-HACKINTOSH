@@ -52,9 +52,8 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
 | CPU Power Management (SpeedShift)<br>CPU 电源管理 | ✅ | `SSDT-PLUG` | Use `iMac20,1` |
-| NVMe Drive Battery Management<br>NVMe 硬盘电源管理 | ✅ | `NVMeFix.kext` | |
+| NVMe Drive Battery Management<br>NVMe 硬盘电源管理 | ✅ | | |
 | S3 Sleep<br>S3 睡眠 | ✅ | 
-| Hibernation Mode 3<br>Mode 3 休眠 | ✅ |   | `may broken`<br>`可能无法使用` |
 
 ### Input & Output
 
