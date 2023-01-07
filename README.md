@@ -87,12 +87,10 @@ Your warranty is now void. Please do some research if you have any concerns befo
 
 ### Basic / 基本需求
 
-- A macOS machine (optional): to create the macOS installer and build the EFI.
-  一台已经安装好 macOS 的机器，用于制作 macOS 安装器和编译本项目
-- Flash drive, 16GB or more, for the above purpose.
-  一个容量大于等于 16 GiB 的 U 盘
-- [PlistEDPlus](https://github.com/ic005k/PlistEDPlus) to edit plist files on Windows.
-  编辑 plist 文件的工具 [PlistEDPlus](https://github.com/ic005k/PlistEDPlus)
+- Flash drive, 4GB or more, for the above purpose.
+  一个容量大于等于 4 GB 的 U 盘
+- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) to edit plist files on Windows/macOS.
+  编辑 plist 文件的工具 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 - [ProperTree](https://github.com/corpnewt/ProperTree) to edit plist files on Windows/macOS.
   编辑 plist 文件的工具 [ProperTree](https://github.com/corpnewt/ProperTree)
 - [MaciASL](https://github.com/acidanthera/MaciASL) for patching ACPI tables and editing ACPI patches.
@@ -128,7 +126,7 @@ It is recommended to use Broadcom wireless network card to obtain **Better** per
 - Settings > Boot > Boot\Boot Configuration > Wait For 'F1' If Error: Disabled
 
 
-### Solve the windows difference of 8 hours / 双系统解决Win系统时间时差问题
+### Solve the Windows difference of 8 hours / 解决Windows系统时间时差8小时问题
 * Running under the Window / 在Windows下运行
 ```
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
