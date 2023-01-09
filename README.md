@@ -69,8 +69,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | --- | --- | --- | --- |
 | HiDPI | ✅ | | Natively enabled on UHD DP  screen external<br>在 UHD DP 4K 外接屏幕上原生启用 |
 
-### For more details, see [Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files)<br>
-更多详细信息，请参阅[Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files)
+### For more details, see [Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files) / 更多详细信息，请参阅[Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files)
 
 ## Refrence / 必读参考资料
 
