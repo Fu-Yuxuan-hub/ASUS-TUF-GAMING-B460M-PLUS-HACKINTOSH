@@ -14,7 +14,6 @@ Your warranty is now void. Please do some research if you have any concerns befo
 
 - [简体中文](https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/C17227_TUF_GAMING_B460M-PLUS_UM_V3_WEB.pdf)
 
-  ## 
 
 ## Hardware Specifications / 硬件配置
 
@@ -71,7 +70,7 @@ Your warranty is now void. Please do some research if you have any concerns befo
 
 **For more details, see [Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files)**
 
-**更多详细信息，请参阅[Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files)**
+**更多详细信息，请参阅 [Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files)**
 
 ## Refrence / 必读参考资料
 
@@ -131,8 +130,8 @@ It is recommended to use Broadcom wireless network card to obtain **Better** per
 - Settings > Boot > Boot\Boot Configuration > Wait For 'F1' If Error: Disabled
 
 
-### Solve the Windows difference of 8 hours / 解决Windows系统时间时差8小时问题
-* Running under the Window / 在Windows下运行
+### Solve the Windows difference of 8 hours / 解决 Windows 系统时间时差8小时问题
+* Running under the Window / 在 Windows 下运行
 ```
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 ```
@@ -140,9 +139,9 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 ## End / 结语
 This EFI supports `macOS Catalina`,`macOS Big Sur`,`macOS Monterey` and `macOS Ventura`       
 
-本项目所提供的EFI支持`macOS Catalina`,`macOS Big Sur`,`macOS Monterey`和`macOS Ventura`
+本项目所提供的EFI支持 `macOS Catalina`,`macOS Big Sur`,`macOS Monterey`和`macOS Ventura`
 
 
-Welcome to submit [Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues) and [Pull request](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
+Welcome to submit [Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues)
 
-欢迎各位积极提交[Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues)和[Pull request](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/pulls)
+欢迎各位积极提交[Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues)
