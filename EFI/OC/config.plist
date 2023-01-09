@@ -727,11 +727,11 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<true/>
+			<false/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02032108CDPHCDFB</string>
+			<string>C02033600J9PHC11H</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -743,9 +743,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02D66Y2PN5T</string>
+			<string>C02D7XYKPN5T</string>
 			<key>SystemUUID</key>
-			<string>FC972BB4-5A13-4C4D-9178-B1912E8016AF</string>
+			<string>28DF50C4-257F-487D-9447-E386A5D34424</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
