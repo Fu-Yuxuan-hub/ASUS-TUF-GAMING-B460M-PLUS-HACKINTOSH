@@ -104,6 +104,9 @@ Your warranty is now void. Please do some research if you have any concerns befo
 - Patience and time, especially if this is your first time Hackintosh-ing.
   耐心和时间。如果你是第一次进行黑苹果，这尤为重要
 
+### 创建安装U盘 / Create Installation Folder
+详见[Create Installation Folder](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Create-Installation-Folder) / See [Create Installation Folder](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Create-Installation-Folder)
+
 ### Hardware Modification / 硬件修改
 
 #### SSD
