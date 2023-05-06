@@ -1,0 +1,14 @@
+0x14 Speaker out
+
+0x1b Hp out
+
+0x11 Dig out
+
+Inputs:
+
+0x19 Front Mic
+
+0x18 Rear Mic
+
+0x1a Line
+

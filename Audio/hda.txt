@@ -1,0 +1,15 @@
+ubuntu@ubuntu:~$ sudo dmesg | grep snd_hda_codec_realtek
+[    8.515812] snd_hda_codec_realtek hdaudioC0D0: ALCS1200A: SKU not ready 0x00000000
+[    8.516187] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALCS1200A: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+[    8.516189] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    8.516190] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+[    8.516191] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[    8.516192] snd_hda_codec_realtek hdaudioC0D0:    dig-out=0x11/0x0
+[    8.516193] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[    8.516193] snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x19
+[    8.516194] snd_hda_codec_realtek hdaudioC0D0:      Rear Mic=0x18
+[    8.516195] snd_hda_codec_realtek hdaudioC0D0:      Line=0x1a
+ubuntu@ubuntu:~$ 
+
+
+
