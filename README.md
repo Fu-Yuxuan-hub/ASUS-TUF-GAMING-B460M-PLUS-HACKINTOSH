@@ -1,21 +1,20 @@
-<h1 align="center">ASUS-TUF-GAMING-B460M-PLUS</h1>
-<h3 align="center">华硕 B460M重炮手 黑苹果 OpenCore 引导配置</h3>
-<br>
+ASUS TUF GAMING B460M PLUS
+========
+EFI for ASUS TUF GAMING B460M PLUS
 
-## Disclaimer / 免责声明
+English(current)<br>
+[简体中文](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/blob/main/README_CN.md)
+
+
+## Disclaimer 
 
 Your warranty is now void. Please do some research if you have any concerns before utilizing my project. I am not responsible for any loss, including but not limited to Kernel Panic, device fail to boot or can not function normally, storage damage or data loss, atomic bombing, World War III, The CK-Class Restructuring Scenario that SCP Foundation can not prevent, and so on.
 
-你的保修将完全失效。如果您有任何疑虑，请在使用我的项目之前先进行一些研究。我对任何损失均不负责，包括但不限于 Kernel Panic、设备无法启动或无法正常工作、硬件损坏或数据丢失、原子弹爆炸、第三次世界大战、SCP 基金会无法避免的 CK 级现实重构等。
 
-
-## Practical Manual / 使用手册 
+## Practical Manual 
 - [English](https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/E17227_TUF_GAMING_B460M-PLUS_UM_V3_WEB.pdf)
 
-- [简体中文](https://dlsvr04.asus.com.cn/pub/ASUS/mb/LGA1200/TUF_GAMING_B460M-PLUS/C17227_TUF_GAMING_B460M-PLUS_UM_V3_WEB.pdf)
-
-
-## Hardware Specifications / 硬件配置
+## Hardware Specifications 
 
 | Specifications | Details |
 |:---|:---|
@@ -27,103 +26,89 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | Wireless Card | BCM 943602CS |
 | [BIOS Version](https://www.asus.com.cn/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b460m-plus/helpdesk_bios/?model2Name=TUF-GAMING-B460M-PLUS) | Version 1301 |
 
-## Working & Not Working / 可用与不可用的功能
+## Working & Not Working 
 
-### Non-Fuctional / 不工作
-
-| Feature | Status | Dependency | Remarks |
-| --- | --- | --- | --- |
-| Non-Fuctional<br>没有不工作 | ✅ |  | Completely normal<br>完全正常 |
-
-
-### Video and Audio / 音频与视频
+### Non-Fuctional 
 
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
-| Full Graphics Accleration (QE/CI)<br>图形硬件加速 | ✅ | `WhateverGreen.kext` | |
-| Audio Recording via 3.5mm microphone<br>通过3.5mm 麦克风录音 | ✅ | `AppleALC.kext` | |
-| Audio Playback after through 3.5mm<br>通过 后 3.5mm 接口播放音频 | ✅ | `AppleALC.kext` | |
-| Automatic Headphone Output Switching<br>当插入耳机时自动切换音频输出 | ✅ | `AppleALC.kext` | |
-| Digital Rights Management (DRM)<br>数字版权管理（DRM） | ✅ | `shikigva=80/128` | `Only dGPU` |
+| Wi-Fi | ❌ | *IO80211FamilyLegacy* | Apple has removed this kext in *macOS Sonoma* |
 
 
-### Power, Charge, Sleep and Hibernation / 电源管理、充电、睡眠、休眠
+### Video and Audio
 
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
-| CPU Power Management (SpeedShift)<br>CPU 电源管理 | ✅ | `SSDT-PLUG` | Use `iMac20,1` |
-| NVMe Drive Battery Management<br>NVMe 硬盘电源管理 | ✅ | | |
-| S3 Sleep<br>S3 睡眠 | ✅ | 
+| Full Graphics Accleration (QE/CI) | ✅ | *WhateverGreen.kext* | |
+| Audio Recording via 3.5mm microphone | ✅ | *AppleALC.kext* | |
+| Audio Playback after through 3.5mm | ✅ | *AppleALC.kext* | |
+| Automatic Headphone Output Switching | ✅ | *AppleALC.kext* | |
+
+
+### Power, Charge, Sleep and Hibernation 
+
+| Feature | Status | Dependency | Remarks |
+| --- | --- | --- | --- |
+| CPU Power Management (SpeedShift) | ✅ | *SSDT-PLUG* | Use *iMac20,1* |
+| NVMe Drive Battery Management | ✅ | | |
+| S3 Sleep | ✅ | 
 
 ### Input & Output
 
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
-| USB 2.0, USB 3.0 | ✅ | `USBPorts.kext` | 建议自行`重新定制`USB |
+| USB 2.0, USB 3.0 | ✅ | *USBPorts.kext* | It is recommended to ***re-customize*** the USB |
 
 
-### Display, TrackPad and Keyboard / 显示器、触摸板和键盘
+### Display, TrackPad and Keyboard 
 
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
-| HiDPI | ✅ | | Natively enabled on UHD DP  screen external<br>在 UHD DP 4K 外接屏幕上原生启用 |
+| HiDPI | ✅ | | Natively enabled on UHD DP  screen external |
 
-**For more details, see [Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files)**
 
-**更多详细信息，请参阅 [Files](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Files)**
-
-## Refrence / 必读参考资料
+## Refrence 
 
 - [dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [dortania's OpenCore Post Install Guide](https://dortania.github.io/OpenCore-Post-Install/)
 - [dortania Getting Started with ACPI](https://dortania.github.io/OpenCore-Post-Install/)
-- [dortania opencore multiboot](https://github.com/dortania/OpenCore-Multiboot)
-- [WhateverGreen Intel HD Manual](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
-- `Configuration.pdf` and `Differences.pdf` in each OpenCore releases.
+- *Configuration.pdf* and *Differences.pdf* in each OpenCore releases.
 - [daliansky/OC-little](https://github.com/daliansky/OC-little)
 - [OpenCore 简体中文参考手册 (非官方)](https://oc.skk.moe)
 
 **No seriously, PLEASE read those.**
 
-**务必阅读上述参考资料**
+## Requirement 
 
-## Requirement / 需求和依赖
-
-### Basic / 基本需求
+### Basic 
 
 - Flash drive, 4GB or more, for the above purpose.
-  一个容量大于等于 4 GB 的 U 盘
+
 - [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) to edit plist files on Windows/macOS.
-  编辑 plist 文件的工具 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
+
 - [ProperTree](https://github.com/corpnewt/ProperTree) to edit plist files on Windows/macOS.
-  编辑 plist 文件的工具 [ProperTree](https://github.com/corpnewt/ProperTree)
+
 - [MaciASL](https://github.com/acidanthera/MaciASL) for patching ACPI tables and editing ACPI patches.
-  用于修补和编辑 ACPI 的工具 [MaciASL](https://github.com/acidanthera/MaciASL)
+
 - [HackinTool](https://github.com/headkaze/Hackintool) for diagnosis ONLY. Most of the built-in patches are outdated.
-  **仅用于** 诊断的 [HackinTool](https://github.com/headkaze/Hackintool)，大部分内置的补丁和工具已经过时、不再适用
+
 - Patience and time, especially if this is your first time Hackintosh-ing.
-  耐心和时间。如果你是第一次进行黑苹果，这尤为重要
 
-### 创建安装U盘 / Create Installation Folder
-详见 [Create Installation Folder](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Create-Installation-Folder) / See [Create Installation Folder](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/wiki/Create-Installation-Folder)
 
-### Hardware Modification / 硬件修改
+### Hardware Modification 
 
 #### SSD
-
-三星 PM981/PM981a/PM991 和 镁光 2200S **完全** 无法使用，务必更换至少一块 SSD 硬盘。
 
 Samusung PM981/PM981a/PM991 and Micron 2200S is not supported AT ALL. Make sure to switch at least one SSD.
 
 
-#### Wireless Card / 无线网卡
+#### Wireless Card
 
-It is recommended to use Broadcom wireless network card to obtain **Better** performance and use native functions about「Apple Ecology」(I mean, 100x FASTER!)
+- It is recommended to use Broadcom wireless network card to obtain **Better** performance and use native functions about「Apple Ecology」
+  >In macOS Sonoma ，Apple has removed *IO80211FamilyLegacy* which made the Broadcom wireless card no longer available in macOS Sonoma.
 
-建议使用博通无线网卡以获得 **更好** 的性能和使用原生的关于「苹果生态」的功能（更好，指速度快 **100 倍**）
 
-
-### BIOS Settings / 修改 BIOS 设置
+### BIOS Settings 
 
 - Settings > Advanced > System Agent (SA) Configuration > VT-D: Disabled
 - Settings > Advanced > System Agent (SA) Configuration > Above 4G Decoding: Enabled
@@ -133,18 +118,31 @@ It is recommended to use Broadcom wireless network card to obtain **Better** per
 - Settings > Boot > Boot\Boot Configuration > Wait For 'F1' If Error: Disabled
 
 
-### Solve the Windows difference of 8 hours / 解决 Windows 系统时间时差8小时问题
-* Running under the Window / 在 Windows 下运行
+### Solve the Windows difference of 8 hours 
+* Running under the Window 
 ```
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 ```
 
-## End / 结语
-This EFI supports `macOS Catalina`,`macOS Big Sur`,`macOS Monterey` and `macOS Ventura`       
+## Contribution
 
-本项目所提供的EFI支持 `macOS Catalina`,`macOS Big Sur`,`macOS Monterey`和`macOS Ventura`
+#### If you like this project, please consider supporting it via:
 
+* Give it a star!
 
-Welcome to submit [Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues)
+* [Buy](https://ko-fi.com/fuyuxuan) me a coffee😝.
+  * Also can [WeChat](https://github.com/Fu-Yuxuan-hub/Generic-EFI-for-H610-B660-Z690-B760-Z790/blob/main/Donation/WeChat.JPG) or [Alipay](https://github.com/Fu-Yuxuan-hub/Generic-EFI-for-H610-B660-Z690-B760-Z790/blob/main/Donation/Alipay.JPG)
 
-欢迎各位积极提交[Issue](https://github.com/Fu-Yuxuan-hub/ASUS-TUF-GAMING-B460M-PLUS-HACKINTOSH/issues)
+* Opening up an issue if you encountered any problem or want to make suggestions.
+  > Attention：Please ask questions according to the predetermined template
+
+## Credits
+
+* [acidanthera](https://github.com/acidanthera) for OpenCore.
+* Apple for macOS.
+
+## Attention
+
+* This repo is only for sharing and helping install Hackintosh, **not for** commercial use.
+
+© 杆杆只爱学习, Released under the MIT License.
