@@ -51,7 +51,9 @@ Your warranty is now void. Please do some research if you have any concerns befo
 | --- | --- | --- | --- |
 | CPU Power Management (SpeedShift) | ✅ | *SSDT-PLUG* | Use *iMac20,1* |
 | NVMe Drive Battery Management | ✅ | | |
-| S3 Sleep | ✅ | 
+| S3 Sleep | ✅ |
+| Hibernate Mode 25 | ✅ | 1. Enter *sudo pmset hibernatemode 25* in the terminal<br>2. *Booter-DiscardHibernateMap* *enable*<br>3. *Misc-Boot-Hibernate Mode* *Auto*<br>4. Third-party SSD enable *Kernel-Quirks-ThirdPartyDrivers*
+  | |
 
 ### Input & Output
 

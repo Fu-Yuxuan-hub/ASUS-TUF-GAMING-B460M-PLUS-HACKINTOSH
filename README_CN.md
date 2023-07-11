@@ -53,7 +53,9 @@ ASUS TUF GAMING B460M PLUS
 | --- | --- | --- | --- |
 | CPU 电源管理 | ✅ | *SSDT-PLUG* | Use *iMac20,1* |
 | NVMe 硬盘电源管理 | ✅ | | |
-| S3 睡眠 | ✅ | 
+| S3 Sleep | ✅ | 
+| Hibernate Mode 25 | ✅ | 1. 终端输入 *sudo pmset hibernatemode 25*<br>2. *Booter-DiscardHibernateMap* *启用*<br>3. *Misc-Boot-Hibernate Mode* *Auto*<br>4. 第三方 SSD 启用 *Kernel-Quirks-ThirdPartyDrivers*
+ | |
 
 ### 输入 & 输出
 
