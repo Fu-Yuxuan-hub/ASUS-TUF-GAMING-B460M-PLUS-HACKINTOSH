@@ -34,7 +34,7 @@ ASUS TUF GAMING B460M PLUS
 
 | Feature | Status | Dependency | Remarks |
 | --- | --- | --- | --- |
-| Wi-Fi | ❌ | *IO80211FamilyLegacy* | *macOS Sonoma* 中已移除此内核扩展 |
+| Wi-Fi | ❌ | *IO80211FamilyLegacy* | *macOS Sonoma* 中需要 [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/pull/1077) |
 
 
 ### 音频与视频
@@ -107,7 +107,7 @@ ASUS TUF GAMING B460M PLUS
 #### Wireless Card / 无线网卡
 
 - 建议使用博通无线网卡以获得 **更好** 的性能和使用原生的关于「苹果生态」的功能
-  >在 macOS Sonoma 中，Apple 已经移除了 *IO80211FamilyLegacy*，这导致博通无线网卡已经无法在 macOS Sonoma 中使用
+  >在 macOS Sonoma 中，Apple 已经删除了 *IO80211FamilyLegacy*，这导致博通无线网卡在 macOS Sonoma 中需要使用 [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/pull/1077) 驱动。
 
 
 ### BIOS Settings / 修改 BIOS 设置
